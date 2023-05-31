@@ -1,12 +1,11 @@
 <script setup>
+import MemberField from './entities/memberField/MemberField.vue';
 </script>
 
 <template>
-    <div>Init</div>
+    <MemberField name="Рим"></MemberField>
 </template>
 
 <style scoped lang="scss">
-div {
-    color: $base_color;
-}
+
 </style>
